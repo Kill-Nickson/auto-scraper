@@ -37,7 +37,7 @@ Install the dependencies from requirements.txt
     pip install -r requirements.txt
     ```
 
-###### Ways to run:
+##### Ways to run:
 * Run main.py script and leave let it waork in the background;
 * By using pyinstaller create an executable file and put it into a Startup folder of your OS, command to compile:
     ```
