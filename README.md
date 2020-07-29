@@ -11,11 +11,25 @@ Once I got a need to scrape data from a web-source and then store the data daily
  * **main** - the module whose main function combines the functions of all other modules and implements an endless loop that collects new data at a specified time.
 
 
-#### Ways to run:
+#### Quick start:
+
+###### Edit configs/config.ini file
+
+Edit config.ini file:
+* days_delta: a day for collecting data (0 - today, 1 - yesterday, ...)
+* project_dir: an absolute path to the project directory
+* base_url: a link to a scraping web-source
+```
+[Variables]
+days_delta = 1
+project_dir = ***
+base_url = https://******
+```
+
+###### Set up venv
 
 Install the dependencies from requirements.txt
 
-###### Preparations
 * cd to the directory where requirements.txt is located
 * activate your venv
 * run:
@@ -23,7 +37,7 @@ Install the dependencies from requirements.txt
     pip install -r requirements.txt
     ```
 
-###### Ways:
+###### Ways to run:
 * Run main.py script and leave let it waork in the background;
 * By using pyinstaller create an executable file and put it into a Startup folder of your OS, command to compile:
     ```
