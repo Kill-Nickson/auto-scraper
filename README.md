@@ -13,7 +13,7 @@ Once I got a need to scrape data from a web-source and then store the data daily
 
 #### Quick start:
 
-###### Edit configs/config.ini file
+##### Edit configs/config.ini file
 
 Edit config.ini file:
 * days_delta: a day for collecting data (0 - today, 1 - yesterday, ...)
@@ -26,7 +26,7 @@ project_dir = ***
 base_url = https://******
 ```
 
-###### Set up venv
+##### Set up venv
 
 Install the dependencies from requirements.txt
 
